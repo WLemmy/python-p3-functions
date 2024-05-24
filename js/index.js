@@ -3,18 +3,20 @@
   greetProgrammer();
   => "Hello, programmer!"
 */
-function greetProgrammer() {
-  console.log("Hello, programmer!");
-}
+def greet_programmer():
+  print("Hello, Naureen!")
+greet_programmer()
 
 /*
   You should be able to call this function with one argument and see its output in the terminal:
   greet("Naureen");
   => "Hello, Naureen!"
 */
-function greet(name) {
-  console.log(`Hello, ${name}!`);
-}
+def greet(programmer):
+    print(f"Hello, {programmer}")
+
+
+greet("John")
 
 /*
   You should be able to call this function with no arguments and see its output in the terminal:
@@ -25,9 +27,8 @@ function greet(name) {
   greetWithDefault("Sunny");
   => "Hello, Sunny!"
 */
-function greetWithDefault(name = "programmer") {
-  console.log(`Hello, ${name}!`);
-}
+def greet_with_default(name="programmer"):
+    print(f"Hello, {name}!")
 
 /*
   You should be able to call this function with two arguments and get back its return value:
@@ -35,9 +36,8 @@ function greetWithDefault(name = "programmer") {
   console.log(sum);
   => 3
 */
-function add(num1, num2) {
-  return num1 + num2;
-}
+def add(num1, num2):
+    return num1 + num2
 
 /*
   You should be able to call this function with two arguments and get back its return value:
